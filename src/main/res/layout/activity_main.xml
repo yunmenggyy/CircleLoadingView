@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:CircleLoadingView="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zxyilian.com.myapplication.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <Button
+        android:text="returnBack"
+        android:onClick="returnOrigin"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+<!--    <zxyilian.com.myapplication.ui.CircleLoadingView
+        android:id="@+id/circleLoading"
+        CircleLoadingView:startValue="30"
+        CircleLoadingView:decreaseInterVal="500"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </zxyilian.com.myapplication.ui.CircleLoadingView>-->
+
+
+<!--    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="世界你好！"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="世界你好！" />
+
+
+
+
+    <zxyilian.com.myapplication.ui.ProgressWheel
+        android:id="@+id/pw_spinner"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        ProgressWheel:pwText="Authenticating..."
+        ProgressWheel:pwTextColor="#222"
+        ProgressWheel:pwTextSize="14sp"
+        ProgressWheel:pwRimColor="#330097D6"
+        ProgressWheel:pwBarLength="60dp"
+        ProgressWheel:pwBarColor="#0097D6"
+        ProgressWheel:pwBarWidth="5dp"
+        ProgressWheel:pwRimWidth="2dp"
+        />
+
+    <Button
+        android:onClick="stop"
+        android:text="stop"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <zxyilian.com.myapplication.ui.CircularSeekBar
+        android:id="@+id/circularSeekBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+
+ <!--   <ListView
+        android:id="@+id/listView"
+        android:background="@android:color/white"
+        android:scrollbars="none"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <FrameLayout
+        android:layout_toRightOf="@id/listView"
+        android:layout_marginLeft="-7dp"
+        android:background="@drawable/webbac"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+
+    </FrameLayout>-->
+</RelativeLayout>

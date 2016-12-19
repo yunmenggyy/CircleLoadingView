@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bacImg"
+        android:src="@mipmap/loading"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/tadpole"
+        android:src="@mipmap/tadpole"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/centerText"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:text="12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/centerDownText"
+        android:text="M"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/centerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/controlBtn"
+        android:background="@drawable/buttonbac"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bacImg"
+        android:text="清除缓存"
+        android:textColor="@android:color/white"
+        android:layout_width="180dp"
+        android:layout_height="50dp" />
+
+
+</RelativeLayout>
